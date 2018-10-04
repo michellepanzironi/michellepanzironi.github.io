@@ -3533,7 +3533,7 @@ input, select, textarea {
     }
 
     #main .project-desc {
-      margin: auto;
+      vertical-align: middle;
     }
 
 		#main .icon.major {
