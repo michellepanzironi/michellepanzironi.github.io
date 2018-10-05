@@ -2347,6 +2347,10 @@ input, select, textarea {
     opacity: 0.6;
     /* background-color: #a89cc8; */
     margin-right: 40px;
+    margin-bottom: 40px;
+    max-width: 100%;
+    height: auto;
+    object-fit: scale-down;
   }
   .project-image:hover {
     opacity: 1;
@@ -3529,6 +3533,7 @@ input, select, textarea {
 
     #main .projects {
       display: flex;
+      flex-wrap: wrap;
       margin-bottom: 40px;
     }
 
