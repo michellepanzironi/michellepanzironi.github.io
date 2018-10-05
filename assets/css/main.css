@@ -3533,12 +3533,15 @@ input, select, textarea {
 
     #main .projects {
       display: flex;
-      flex-wrap: wrap;
+      /* flex-wrap: wrap; */
+      flex-direction: row;
       margin-bottom: 40px;
     }
 
     #main .project-desc {
       margin: auto;
+      max-width: 490px;
+      min-width: 490px;
     }
 
 		#main .icon.major {
