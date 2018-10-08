@@ -3606,6 +3606,7 @@ input, select, textarea {
 
 		#main .spotlight .image {
 			border-color: #dddddd;
+      object-fit: cover;
 		}
 
 		#main > .main {
