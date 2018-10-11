@@ -3534,7 +3534,7 @@ input, select, textarea {
       flex-wrap: wrap;
       flex-direction: row;
       margin-bottom: 40px;
-      justify-content: space-between;
+      justify-content: space-around;
     }
 
     #main .project-desc {
