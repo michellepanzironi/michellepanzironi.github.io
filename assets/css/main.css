@@ -2343,10 +2343,12 @@ input, select, textarea {
 /* Image */
 
   .project-image {
+		max-width: 343px;
+		max-height: 231px;
     break-after: column;
     opacity: 0.6;
     margin: auto;
-    max-width: 100%;
+    overflow: hidden;
     height: auto;
     object-fit: scale-down;
   }
