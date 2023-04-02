@@ -2347,6 +2347,10 @@ input, select, textarea {
 		max-height: 231px;
     break-after: column;
     opacity: 0.85;
+		-moz-transition: opacity 0.3s ease;
+		-webkit-transition: opacity 0.3s ease;
+		-ms-transition: opacity 0.3s ease;
+		transition: opacity 0.3s ease;
     margin: auto;
     overflow: hidden;
     height: auto;
