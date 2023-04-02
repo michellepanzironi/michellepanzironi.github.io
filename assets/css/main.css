@@ -2346,7 +2346,7 @@ input, select, textarea {
 		max-width: 343px;
 		max-height: 231px;
     break-after: column;
-    opacity: 0.6;
+    opacity: 0.85;
     margin: auto;
     overflow: hidden;
     height: auto;
