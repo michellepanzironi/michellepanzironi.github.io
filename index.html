@@ -270,8 +270,10 @@
                 <li><a href="https://angel.co/michelle-panzironi" class="icon fa-angellist alt" target="_blank"><span class="label">AngelList</span></a></li>
 							</ul>
 						</section>
-
 					</footer>
+					<div id="footer-bottom">
+						<p>&copy; <span id="current-year"></span> The Pretty, LLC.  All rights reserved.</p>
+					</div>
 
 			</div>
 
@@ -283,6 +285,10 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				const currentYear = new Date().getFullYear();
+				document.getElementById("current-year").textContent = currentYear;
+			</script>
 
 	</body>
 </html>
