@@ -2360,6 +2360,10 @@ input, select, textarea {
     opacity: 1;
   }
 
+	.project-img-a {
+		margin: auto 0;
+	}
+
 	.image {
 		border-radius: 8px;
 		border: 0;
